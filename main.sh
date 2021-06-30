@@ -8,7 +8,7 @@
 # Globals :
 #   None
 # Arguments :
-# Return :
+# Exit status :
 #   0 on success, non-zero on error.
 #-----------------------------------------------------------------------
 
@@ -21,7 +21,7 @@ function main() {
 # Description :
 # Usage :
 # Globals :
-#   PS4
+#   None
 # Locals :
 #   None
 # Arguments :

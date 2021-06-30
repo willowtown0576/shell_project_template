@@ -10,7 +10,7 @@
 #   SCRIPT_NAME
 #   LOG_NAME
 # Arguments :
-# Return :
+# Exit status :
 #-----------------------------------------------------------------------
 
 # Define Variables
@@ -68,8 +68,8 @@ function post_proc() {
   local _error_message
   local _tag
   _exit_status="$1"
-  _error_message=""
-  _tag=""
+  _error_message="test message"
+  _tag="shell_project_template"
 
   if (( _exit_status != 0 )); then
     logger -p user.error -t "${_tag}" "${_error_message}"
