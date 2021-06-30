@@ -1,0 +1,13 @@
++(./main.sh:42): main
++(./main.sh:32): main(): echo test
++(./main.sh:33): main(): return 0
++(./main.sh:44): exit 0
++(./main.sh:1): post_proc 0
++(./lib/common.sh:67): post_proc(): local _exit_status
++(./lib/common.sh:68): post_proc(): local _error_message
++(./lib/common.sh:69): post_proc(): local _tag
++(./lib/common.sh:70): post_proc(): _exit_status=0
++(./lib/common.sh:71): post_proc(): _error_message=
++(./lib/common.sh:72): post_proc(): _tag=
++(./lib/common.sh:74): post_proc(): ((  _exit_status != 0  ))
++(./lib/common.sh:78): post_proc(): return 0
